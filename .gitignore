@@ -1,0 +1,19 @@
+# CMake and compiler build output
+/build/
+/build-*/
+/cmake-build-*/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile.cmake
+
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Default ad-hoc benchmark outputs (the committed results/ files are retained)
+/benchmarks.csv
+/benchmarks_raw.csv
+/performance.png
